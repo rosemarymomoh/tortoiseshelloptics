@@ -130,3 +130,65 @@ footer img{
   height: 1.5rem;
   margin-right: 1rem;
 }
+
+
+@media only screen and (max-width: 1024px){
+  .maincontainer{
+    width: 100%;
+  }
+
+  .topsection{
+    height:22rem;
+    padding-top:0;
+  }
+
+  .mainbanner{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .slogan{
+    position: relative;
+    top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .slogan span{
+    background-color: white;
+    font-weight: bold;
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+  }
+
+}
+
+@media only screen and (max-width: 470px){
+  .maincontainer{
+      width: 100%;
+    }
+
+  .topsection{
+      height:17rem;
+      padding-top:0;
+      background-position: 20%;
+    }
+
+    .mainbanner{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .slogan{
+      position: absolute;
+      top: 9rem;
+      width: 100%;
+    }
+
+    .slogan span{
+      background-color: white;
+      font-weight: bold;
+      font-size: 1.33rem;
+      padding: 0.75rem 4rem;
+    }
+}
