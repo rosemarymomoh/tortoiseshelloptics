@@ -1,0 +1,132 @@
+html{
+  font-size: 18px;
+  line-height: 1.4;
+}
+body{
+  font-family: Helvetica;
+}
+
+div {
+  display:block;
+}
+
+.maincontainer{
+  width:960px;
+  margin: 1rem auto;
+}
+
+.topsection{
+  background-image: url(../images/glasses-bg.png);
+  background-size: cover;
+  height:30rem;
+  padding-top: 1rem;
+}
+
+.companyheader div{
+  display: flex;
+  align-items: center;
+}
+
+.companyheader{
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.companyheader img{
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.companyheader span{
+  font-size: 1rem;
+}
+
+
+nav ul{
+  margin: 1rem 1rem;
+}
+
+ul li{
+  margin: 1rem 1rem;
+  display: inline;
+}
+
+.mainbanner{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.slogan{
+  position: relative;
+  top: 10rem;
+  margin-right: -2rem;
+}
+
+.slogan span{
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+}
+
+
+.servicegrid{
+  display: flex;
+  justify-content: center;
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  margin: 3rem;
+}
+
+.service img{
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.service img.paper-icon{
+  width:3.5rem;
+}
+
+.businessdetails{
+  display: flex;
+  justify-content: center;
+}
+
+.details{
+  width: 35%;
+  margin-bottom: 5rem;
+  margin-right: 5%;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  width:10rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+footer{
+  padding: 4rem;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+footer img{
+  height: 1.5rem;
+  margin-right: 1rem;
+}
